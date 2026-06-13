@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: It was significantly faster on sorted data (0.055s) then reversed data (0.238s).
+It detects no swaps are needed on sorted input and finishes early, giving O(n) best case.
+
+sort2 uses: merge sort
+
+How do you know?: It was significantly fast on bothe reversed (0.062s) and sorted (0.050s) data.
+It always runs in O(n log n) regardless of the input order.
+
+sort3 uses: selection sort
+
+How do you know?: It was slow on both reversed (0.157s) and sorted (0.123s) data with little difference between them.
+It always scans the full remaining list to find the minimum, giving o(n^2) in all cases.
